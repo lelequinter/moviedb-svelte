@@ -1,5 +1,9 @@
 <script>
+    import PopuparMovies from '../components/PopuparMovies.svelte';
+
     export let data;
 </script>
 
-<h1>Home </h1>
+<section>
+    <PopuparMovies movies={data.popular}/>
+</section>
