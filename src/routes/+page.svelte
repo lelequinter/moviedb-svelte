@@ -1,5 +1,4 @@
 <script>
-    import global from '../global.css?inline'
     import PopuparMovies from '../components/PopuparMovies.svelte';
 
     export let data;
@@ -9,3 +8,9 @@
 <section>
     <PopuparMovies movies={data.popular}/>
 </section>
+
+<style>
+    *{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+    }
+</style>

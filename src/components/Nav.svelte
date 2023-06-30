@@ -13,7 +13,7 @@
     a{
         font-size: 1rem;
         font-weight: bold;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
         color: black;
         text-decoration: none;
     }
